@@ -1,0 +1,1204 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Reference1}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=b66d7a9f50f24f3226509c9a584355a2}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{fullhash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{fullhashraw}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{bibnamehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authorbibnamehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authornamehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authorfullhash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authorfullhashraw}{b66d7a9f50f24f3226509c9a584355a2}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Ninth International Conference on Document Analysis and Recognition (ICDAR 2007)}
+      \field{title}{An Overview of the Tesseract OCR Engine}
+      \field{year}{2007}
+      \field{pages}{629\bibrangedash 633}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICDAR.2007.4376991
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ICDAR.2007.4376991
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ICDAR.2007.4376991
+      \endverb
+    \endentry
+    \entry{Reference2}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=795003cc8918f3dfadd6bcef48f35379}{%
+           family={Mori},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=849c7c97351f796ca05c8247871b28a5}{%
+           family={Suen},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi Y.},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=a690500d2dadb4625dbba01ad6149823}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2062bfa61f3993507d795b164801dc78}
+      \strng{fullhash}{140b10fd8ef01bb88a6d66292d90ebfa}
+      \strng{fullhashraw}{140b10fd8ef01bb88a6d66292d90ebfa}
+      \strng{bibnamehash}{140b10fd8ef01bb88a6d66292d90ebfa}
+      \strng{authorbibnamehash}{140b10fd8ef01bb88a6d66292d90ebfa}
+      \strng{authornamehash}{2062bfa61f3993507d795b164801dc78}
+      \strng{authorfullhash}{140b10fd8ef01bb88a6d66292d90ebfa}
+      \strng{authorfullhashraw}{140b10fd8ef01bb88a6d66292d90ebfa}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{7}
+      \field{title}{Historical Review of OCR Research and Development}
+      \field{volume}{80}
+      \field{year}{1992}
+      \field{pages}{1029\bibrangedash 1058}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1109/5.156468
+      \endverb
+    \endentry
+    \entry{Reference3}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=4deee860d3539dbd6e996000c16b5d5d}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Baoguang},
+           giveni={B\bibinitperiod}}}%
+        {{hash=68f158f41c42b03be07aa7fb3c8d36de}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=fa98e8b4e3253aa1f8427ad24381b742}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8a92a0c9f0f2cceb4f0437aca366386f}
+      \strng{fullhash}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{fullhashraw}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{bibnamehash}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{authorbibnamehash}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{authornamehash}{8a92a0c9f0f2cceb4f0437aca366386f}
+      \strng{authorfullhash}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{authorfullhashraw}{5f0d1b686dba5aaefb48a32057859c2d}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{11}
+      \field{title}{An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition}
+      \field{volume}{39}
+      \field{year}{2017}
+      \field{pages}{2298\bibrangedash 2304}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2016.2646371
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/TPAMI.2016.2646371
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/TPAMI.2016.2646371
+      \endverb
+    \endentry
+    \entry{Reference4}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{67eec0e82f44aea6be4ae7c0d58cf129}
+      \strng{fullhash}{67eec0e82f44aea6be4ae7c0d58cf129}
+      \strng{fullhashraw}{67eec0e82f44aea6be4ae7c0d58cf129}
+      \strng{bibnamehash}{67eec0e82f44aea6be4ae7c0d58cf129}
+      \strng{authorbibnamehash}{67eec0e82f44aea6be4ae7c0d58cf129}
+      \strng{authornamehash}{67eec0e82f44aea6be4ae7c0d58cf129}
+      \strng{authorfullhash}{67eec0e82f44aea6be4ae7c0d58cf129}
+      \strng{authorfullhashraw}{67eec0e82f44aea6be4ae7c0d58cf129}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks}
+      \field{volume}{21}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://papers.nips.cc/paper/2008/hash/66368270ffd51418ec58bd793f2d9b1b
+      \endverb
+      \verb{url}
+      \verb https://papers.nips.cc/paper/2008/hash/66368270ffd51418ec58bd793f2d9b1b
+      \endverb
+    \endentry
+    \entry{Reference5}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=4deee860d3539dbd6e996000c16b5d5d}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Baoguang},
+           giveni={B\bibinitperiod}}}%
+        {{hash=68f158f41c42b03be07aa7fb3c8d36de}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=fa98e8b4e3253aa1f8427ad24381b742}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a92a0c9f0f2cceb4f0437aca366386f}
+      \strng{fullhash}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{fullhashraw}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{bibnamehash}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{authorbibnamehash}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{authornamehash}{8a92a0c9f0f2cceb4f0437aca366386f}
+      \strng{authorfullhash}{5f0d1b686dba5aaefb48a32057859c2d}
+      \strng{authorfullhashraw}{5f0d1b686dba5aaefb48a32057859c2d}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1507.05717}
+      \field{month}{7}
+      \field{title}{An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1507.05717
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1507.05717
+      \endverb
+      \keyw{CRNN,OCR,Scene Text Recognition}
+    \endentry
+    \entry{Reference6}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=29ea22df63f174ac629e9ef100b40484}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b1d3b7d330a0b9cd14b9467a0dfa8189}{%
+           family={Paliwal},
+           familyi={P\bibinitperiod},
+           given={Kuldip\bibnamedelima K.},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f2edc15114454b7b2f9bea34478b390}
+      \strng{fullhash}{2f2edc15114454b7b2f9bea34478b390}
+      \strng{fullhashraw}{2f2edc15114454b7b2f9bea34478b390}
+      \strng{bibnamehash}{2f2edc15114454b7b2f9bea34478b390}
+      \strng{authorbibnamehash}{2f2edc15114454b7b2f9bea34478b390}
+      \strng{authornamehash}{2f2edc15114454b7b2f9bea34478b390}
+      \strng{authorfullhash}{2f2edc15114454b7b2f9bea34478b390}
+      \strng{authorfullhashraw}{2f2edc15114454b7b2f9bea34478b390}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bidirectional recurrent neural networks are able to exploit long range contextual information from both past and future directions in sequential data.}
+      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Bidirectional Recurrent Neural Networks}
+      \field{volume}{45}
+      \field{year}{1997}
+      \field{pages}{2673\bibrangedash 2681}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/650093
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/650093
+      \endverb
+      \keyw{BiLSTM,RNN,Sequence Learning}
+    \endentry
+    \entry{Reference7}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9320fcd79fc9668957f2f8911a5d1890}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6ac505680efa9d3591dd05930a13ccd5}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Faustino},
+           giveni={F\bibinitperiod}}}%
+        {{hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{fullhash}{90fbf08cb4d3d4ba450f98e0f8b3c7dd}
+      \strng{fullhashraw}{90fbf08cb4d3d4ba450f98e0f8b3c7dd}
+      \strng{bibnamehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{authorbibnamehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{authornamehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{authorfullhash}{90fbf08cb4d3d4ba450f98e0f8b3c7dd}
+      \strng{authorfullhashraw}{90fbf08cb4d3d4ba450f98e0f8b3c7dd}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Connectionist Temporal Classification (CTC) is a training criterion for recurrent neural networks designed for sequence labeling problems where the alignment between inputs and targets is unknown. The method enables end-to-end training without requiring pre-segmented data and has been widely applied in speech recognition and optical character recognition tasks.}
+      \field{journaltitle}{Proceedings of the 23rd International Conference on Machine Learning}
+      \field{month}{6}
+      \field{title}{Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks}
+      \field{year}{2006}
+      \field{pages}{369\bibrangedash 376}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://www.cs.toronto.edu/~graves/icml_2006.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cs.toronto.edu/~graves/icml_2006.pdf
+      \endverb
+      \keyw{CTC,OCR,Sequence Learning,RNN,Deep Learning}
+    \endentry
+    \entry{Reference8}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=59f56f1d7d1ff90668a2da4e28320845}{%
+           family={Plötz},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=625c3a38db540fc74378c3ebda8cda48}{%
+           family={Bunke},
+           familyi={B\bibinitperiod},
+           given={Horst},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{40c0fd8890ca73de69aaef812b02dab2}
+      \strng{fullhash}{40c0fd8890ca73de69aaef812b02dab2}
+      \strng{fullhashraw}{40c0fd8890ca73de69aaef812b02dab2}
+      \strng{bibnamehash}{40c0fd8890ca73de69aaef812b02dab2}
+      \strng{authorbibnamehash}{40c0fd8890ca73de69aaef812b02dab2}
+      \strng{authornamehash}{40c0fd8890ca73de69aaef812b02dab2}
+      \strng{authorfullhash}{40c0fd8890ca73de69aaef812b02dab2}
+      \strng{authorfullhashraw}{40c0fd8890ca73de69aaef812b02dab2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 12th International Conference on Frontiers in Handwriting Recognition}
+      \field{title}{A Survey of Online and Offline Handwritten Text Recognition}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ICFHR.2010.44
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ICFHR.2010.44
+      \endverb
+      \keyw{HTR survey,online offline HTR}
+    \endentry
+    \entry{Reference10}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b66d7a9f50f24f3226509c9a584355a2}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{fullhash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{fullhashraw}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{bibnamehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authorbibnamehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authornamehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authorfullhash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authorfullhashraw}{b66d7a9f50f24f3226509c9a584355a2}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Ninth International Conference on Document Analysis and Recognition (ICDAR)}
+      \field{title}{An Overview of the Tesseract OCR Engine}
+      \field{year}{2007}
+      \field{pages}{629\bibrangedash 633}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/4376991
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/4376991
+      \endverb
+      \keyw{OCR,traditional methods,segmentation-based recognition}
+    \endentry
+    \entry{Reference11}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7c5579849bc184c00aadddced4ce960c}{%
+           family={Baird},
+           familyi={B\bibinitperiod},
+           given={André\bibnamedelimb G.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c310bd578e515955def635ae495d12ee}{%
+           family={Whiddett},
+           familyi={W\bibinitperiod},
+           given={N.\bibnamedelimi E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5b56964018d4aea4d3faecedaf08704}
+      \strng{fullhash}{f5b56964018d4aea4d3faecedaf08704}
+      \strng{fullhashraw}{f5b56964018d4aea4d3faecedaf08704}
+      \strng{bibnamehash}{f5b56964018d4aea4d3faecedaf08704}
+      \strng{authorbibnamehash}{f5b56964018d4aea4d3faecedaf08704}
+      \strng{authornamehash}{f5b56964018d4aea4d3faecedaf08704}
+      \strng{authorfullhash}{f5b56964018d4aea4d3faecedaf08704}
+      \strng{authorfullhashraw}{f5b56964018d4aea4d3faecedaf08704}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pattern Recognition}
+      \field{title}{A Survey of Optical Character Recognition Techniques}
+      \field{year}{1992}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \keyw{OCR,traditional methods,feature extraction,segmentation}
+    \endentry
+    \entry{Reference9}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b66d7a9f50f24f3226509c9a584355a2}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{fullhash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{fullhashraw}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{bibnamehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authorbibnamehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authornamehash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authorfullhash}{b66d7a9f50f24f3226509c9a584355a2}
+      \strng{authorfullhashraw}{b66d7a9f50f24f3226509c9a584355a2}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ICDAR}
+      \field{title}{An Overview of the Tesseract OCR Engine}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/4376991
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/4376991
+      \endverb
+      \keyw{OCR,noise,document recognition}
+    \endentry
+    \entry{Reference12}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=54c3918df39c65be2d07d130c2d4bc6d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Minghao},
+           giveni={M\bibinitperiod}}}%
+        {{hash=16c15c1e2b6e3b196fd18ea0415143d4}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Tengchao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=251643e5328edc453395a4babee3ac78}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yijuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6c2e0327abbc10ed65f68d90762db88e}{%
+           family={Florencio},
+           familyi={F\bibinitperiod},
+           given={Dinei},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6be2ddbf537bae561864776d40c36220}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cha},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc366cb7a1733319bef0ae8bc84f0faf}
+      \strng{fullhash}{5672d2f00c286a2ba3ab0edce9c73200}
+      \strng{fullhashraw}{5672d2f00c286a2ba3ab0edce9c73200}
+      \strng{bibnamehash}{dc366cb7a1733319bef0ae8bc84f0faf}
+      \strng{authorbibnamehash}{dc366cb7a1733319bef0ae8bc84f0faf}
+      \strng{authornamehash}{dc366cb7a1733319bef0ae8bc84f0faf}
+      \strng{authorfullhash}{5672d2f00c286a2ba3ab0edce9c73200}
+      \strng{authorfullhashraw}{5672d2f00c286a2ba3ab0edce9c73200}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the AAAI Conference on Artificial Intelligence}
+      \field{number}{11}
+      \field{title}{TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models}
+      \field{volume}{37}
+      \field{year}{2023}
+      \field{pages}{13094\bibrangedash 13102}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1609/aaai.v37i11.26452
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1609/aaai.v37i11.26452
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1609/aaai.v37i11.26452
+      \endverb
+    \endentry
+    \entry{Reference13}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=00b950307c7d096765bb6df00c7c5c3a}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Xiaohua},
+           giveni={X\bibinitperiod}}}%
+        {{hash=43928f0badb217b96554c45e630baf83}{%
+           family={Mustafa},
+           familyi={M\bibinitperiod},
+           given={Basil},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6807e3c00242c6bf6a3179905040471b}{%
+           family={Kolesnikov},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=836254958eac09b30d45dd67a75ce4fa}{%
+           family={Beyer},
+           familyi={B\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9befb991d4cc8191e424e6928618157}
+      \strng{fullhash}{22882cc881e73945c928fd6c35c40597}
+      \strng{fullhashraw}{22882cc881e73945c928fd6c35c40597}
+      \strng{bibnamehash}{e9befb991d4cc8191e424e6928618157}
+      \strng{authorbibnamehash}{e9befb991d4cc8191e424e6928618157}
+      \strng{authornamehash}{e9befb991d4cc8191e424e6928618157}
+      \strng{authorfullhash}{22882cc881e73945c928fd6c35c40597}
+      \strng{authorfullhashraw}{22882cc881e73945c928fd6c35c40597}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE/CVF International Conference on Computer Vision}
+      \field{title}{Sigmoid Loss for Language Image Pre-Training}
+      \field{year}{2023}
+      \field{pages}{11975\bibrangedash 11986}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ICCV51070.2023.01100
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ICCV51070.2023.01100
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ICCV51070.2023.01100
+      \endverb
+    \endentry
+    \entry{Reference14}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod}}}%
+        {{hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Łukasz},
+           giveni={Ł\bibinitperiod}}}%
+        {{hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{fullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorfullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Attention Is All You Need}
+      \field{volume}{30}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1706.03762
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1706.03762
+      \endverb
+    \endentry
+    \entry{Reference15}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=05ca9f19da9ecbd2def4e5514f8043c8}{%
+           family={Divvala},
+           familyi={D\bibinitperiod},
+           given={Santosh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e1203a0044715040adeb8c5079ee645a}
+      \strng{fullhash}{b5530443e433a4da53dbe3cf155225b4}
+      \strng{fullhashraw}{b5530443e433a4da53dbe3cf155225b4}
+      \strng{bibnamehash}{e1203a0044715040adeb8c5079ee645a}
+      \strng{authorbibnamehash}{e1203a0044715040adeb8c5079ee645a}
+      \strng{authornamehash}{e1203a0044715040adeb8c5079ee645a}
+      \strng{authorfullhash}{b5530443e433a4da53dbe3cf155225b4}
+      \strng{authorfullhashraw}{b5530443e433a4da53dbe3cf155225b4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{You Only Look Once: Unified, Real-Time Object Detection}
+      \field{year}{2016}
+      \field{pages}{779\bibrangedash 788}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/CVPR.2016.91
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1506.02640
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1506.02640
+      \endverb
+    \endentry
+    \entry{Reference16}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
+           family={LeCun},
+           familyi={L\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9a8750ccdb2a4cf14d2655face1ce016}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e4c6012409dc8dd9b2aa198a2059804}
+      \strng{fullhash}{c6c75bd00ce5a488e91a749d8383b3df}
+      \strng{fullhashraw}{c6c75bd00ce5a488e91a749d8383b3df}
+      \strng{bibnamehash}{c6c75bd00ce5a488e91a749d8383b3df}
+      \strng{authorbibnamehash}{c6c75bd00ce5a488e91a749d8383b3df}
+      \strng{authornamehash}{9e4c6012409dc8dd9b2aa198a2059804}
+      \strng{authorfullhash}{c6c75bd00ce5a488e91a749d8383b3df}
+      \strng{authorfullhashraw}{c6c75bd00ce5a488e91a749d8383b3df}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7553}
+      \field{title}{Deep Learning}
+      \field{volume}{521}
+      \field{year}{2015}
+      \field{pages}{436\bibrangedash 444}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/nature14539
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1404.7828
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1404.7828
+      \endverb
+    \endentry
+    \entry{Reference17}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0d87a656f9bdc99e921c45f73da515b8}{%
+           family={Mohamed},
+           familyi={M\bibinitperiod},
+           given={Abdel-rahman},
+           giveni={A\bibinithyphendelim r\bibinitperiod}}}%
+        {{hash=9a8750ccdb2a4cf14d2655face1ce016}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{fullhash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{fullhashraw}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{bibnamehash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{authorbibnamehash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{authornamehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{authorfullhash}{4f389071d4a8c288b23b12fb452cbb6a}
+      \strng{authorfullhashraw}{4f389071d4a8c288b23b12fb452cbb6a}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1303.5778}
+      \field{title}{Speech Recognition with Deep Recurrent Neural Networks}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1303.5778
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1303.5778
+      \endverb
+    \endentry
+    \entry{Reference18}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3c056cbdcb06e90dca02948ed5898e70}{%
+           family={Sapkota},
+           familyi={S\bibinitperiod},
+           given={Ranjan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=746c83183c8c535e311520652d43c3f8}{%
+           family={Cheppally},
+           familyi={C\bibinitperiod},
+           given={Rahul\bibnamedelima Harsha},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e93f1657ff4c11df70cc91c27e72abff}{%
+           family={Sharda},
+           familyi={S\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4ef3aa207009f406733c9ce63357fb3a}{%
+           family={Karkee},
+           familyi={K\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5388468f8ee73729c22279ba05e2d7ad}
+      \strng{fullhash}{501a32fb274fb31a9afa3f06d2b86712}
+      \strng{fullhashraw}{501a32fb274fb31a9afa3f06d2b86712}
+      \strng{bibnamehash}{5388468f8ee73729c22279ba05e2d7ad}
+      \strng{authorbibnamehash}{5388468f8ee73729c22279ba05e2d7ad}
+      \strng{authornamehash}{5388468f8ee73729c22279ba05e2d7ad}
+      \strng{authorfullhash}{501a32fb274fb31a9afa3f06d2b86712}
+      \strng{authorfullhashraw}{501a32fb274fb31a9afa3f06d2b86712}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{YOLO26: Key Architectural Enhancements and Performance Benchmarking for Real-Time Object Detection}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2509.25164
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2509.25164
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2509.25164
+      \endverb
+    \endentry
+    \entry{Reference19}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=456d8baedde139332e79dad3953e7d4c}{%
+           family={Hidayatullah},
+           familyi={H\bibinitperiod},
+           given={Priyanto},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3626ec4c02e8292c696a1e07f5838b07}{%
+           family={Tubagus},
+           familyi={T\bibinitperiod},
+           given={Refdinal},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7d3262bf2cd98bc3ba107bba5007025}
+      \strng{fullhash}{b7d3262bf2cd98bc3ba107bba5007025}
+      \strng{fullhashraw}{b7d3262bf2cd98bc3ba107bba5007025}
+      \strng{bibnamehash}{b7d3262bf2cd98bc3ba107bba5007025}
+      \strng{authorbibnamehash}{b7d3262bf2cd98bc3ba107bba5007025}
+      \strng{authornamehash}{b7d3262bf2cd98bc3ba107bba5007025}
+      \strng{authorfullhash}{b7d3262bf2cd98bc3ba107bba5007025}
+      \strng{authorfullhashraw}{b7d3262bf2cd98bc3ba107bba5007025}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2602.14582}
+      \field{title}{YOLO26: A Comprehensive Architecture Overview and Key Improvements}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2602.14582
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2602.14582
+      \endverb
+    \endentry
+    \entry{Reference26}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=872785dbf8bc749bb3a72a476ff44af5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a5e6d766a2140e858d36e85e1ac9f19e}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{888f07e77b3652661dad1017eb1e5cb9}
+      \strng{fullhash}{888f07e77b3652661dad1017eb1e5cb9}
+      \strng{fullhashraw}{888f07e77b3652661dad1017eb1e5cb9}
+      \strng{bibnamehash}{888f07e77b3652661dad1017eb1e5cb9}
+      \strng{authorbibnamehash}{888f07e77b3652661dad1017eb1e5cb9}
+      \strng{authornamehash}{888f07e77b3652661dad1017eb1e5cb9}
+      \strng{authorfullhash}{888f07e77b3652661dad1017eb1e5cb9}
+      \strng{authorfullhashraw}{888f07e77b3652661dad1017eb1e5cb9}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a comprehensive overview of convolutional neural networks (CNNs) and their applications in computer vision tasks such as image classification, semantic segmentation, object detection, and image super-resolution. The paper discusses CNN components including convolution layers, pooling layers, activation functions, batch normalization, dropout, fully connected layers, and output layers. In addition, the challenges, solutions, and future research directions of deep CNN architectures are reviewed.}
+      \field{journaltitle}{Artificial Intelligence Review}
+      \field{title}{A Comprehensive Review of Convolutional Neural Network in Computer Vision}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1007/s10462-024-10721-6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10462-024-10721-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10462-024-10721-6
+      \endverb
+      \keyw{CNN,Computer Vision,Deep Learning,Feature Extraction,Image Classification,Object Detection}
+    \endentry
+    \entry{Reference20}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=d44d7994db955a2c2955c9040b76fc85}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Yuning},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1ca7bb6938eda1951bb6f9cf2fb4c4d5}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Chenxia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a770f9f6dcfe05f34bc7d9835ea4375b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xuebo},
+           giveni={X\bibinitperiod}}}%
+        {{hash=06a9c07831898ab47a73b063777679cd}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5f7cee4818d5ce7cf8a02d7f9f952d0c}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=79f3660a73bb5fcc3965cdee2c53c2ac}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhiqiang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=feb96ca112c179e320db2db693e022b8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c697f268350fcc6c1de1708b7f38fab4}{%
+           family={Pu},
+           familyi={P\bibinitperiod},
+           given={Shiliang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=44ba9e336d73385ab4b9ce6084bf825c}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Gui-Song},
+           giveni={G\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{46aeebf671415826de5d1dfa7e65c874}
+      \strng{fullhash}{e0498bea37e28a56fa58244a75df9547}
+      \strng{fullhashraw}{e0498bea37e28a56fa58244a75df9547}
+      \strng{bibnamehash}{46aeebf671415826de5d1dfa7e65c874}
+      \strng{authorbibnamehash}{46aeebf671415826de5d1dfa7e65c874}
+      \strng{authornamehash}{46aeebf671415826de5d1dfa7e65c874}
+      \strng{authorfullhash}{e0498bea37e28a56fa58244a75df9547}
+      \strng{authorfullhashraw}{e0498bea37e28a56fa58244a75df9547}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2009.09941}
+      \field{title}{PP-OCR: A Practical Ultra Lightweight OCR System}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2009.09941
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2009.09941
+      \endverb
+    \endentry
+    \entry{Reference21}{software}{}{}
+      \name{author}{3}{}{%
+        {{hash=c5c5e5cd7f4f477f617289b32613deb0}{%
+           family={Jocher},
+           familyi={J\bibinitperiod},
+           given={Glenn},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b8739ebbf3f871d471b6720a02ed541f}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ec281637802454e8df4de72f3b1ee401}{%
+           family={Chaurasia},
+           familyi={C\bibinitperiod},
+           given={Ayush},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b71b7268164b9120e178882fafc98c9e}
+      \strng{fullhash}{1d270278cb86ffcfd6356ed5db820a38}
+      \strng{fullhashraw}{1d270278cb86ffcfd6356ed5db820a38}
+      \strng{bibnamehash}{1d270278cb86ffcfd6356ed5db820a38}
+      \strng{authorbibnamehash}{1d270278cb86ffcfd6356ed5db820a38}
+      \strng{authornamehash}{b71b7268164b9120e178882fafc98c9e}
+      \strng{authorfullhash}{1d270278cb86ffcfd6356ed5db820a38}
+      \strng{authorfullhashraw}{1d270278cb86ffcfd6356ed5db820a38}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ultralytics YOLO26}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://github.com/ultralytics/ultralytics
+      \endverb
+      \verb{url}
+      \verb https://github.com/ultralytics/ultralytics
+      \endverb
+    \endentry
+    \entry{Reference22}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=465aa227c6b12a8f1bb127a663fec604}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Zhaohui},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2053a78b8c7e674d28eabbe236f2f077}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c0e0d23e2d09e45e6f51cc2bcea6d9f9}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2f4467e79a16980d474b470bdb487834}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jinze},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b1c47c0e24e44165fe8ea7bd61cd0bca}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Rongguang},
+           giveni={R\bibinitperiod}}}%
+        {{hash=191f560d65911e84b3b730982bea0d6e}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Dongwei},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4dcf982a7a9d7f03dd27533dd5b892d}
+      \strng{fullhash}{bfc82f551906d6d5438e219e4586f120}
+      \strng{fullhashraw}{bfc82f551906d6d5438e219e4586f120}
+      \strng{bibnamehash}{f4dcf982a7a9d7f03dd27533dd5b892d}
+      \strng{authorbibnamehash}{f4dcf982a7a9d7f03dd27533dd5b892d}
+      \strng{authornamehash}{f4dcf982a7a9d7f03dd27533dd5b892d}
+      \strng{authorfullhash}{bfc82f551906d6d5438e219e4586f120}
+      \strng{authorfullhashraw}{bfc82f551906d6d5438e219e4586f120}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1911.08287}
+      \field{title}{Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1911.08287
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1911.08287
+      \endverb
+    \endentry
+    \entry{Reference23}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5e72bc22dbcf0984c6d113d280e36990}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiangyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{fullhashraw}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{bibnamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authorbibnamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authornamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authorfullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authorfullhashraw}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{Deep Residual Learning for Image Recognition}
+      \field{year}{2016}
+      \field{pages}{770\bibrangedash 778}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/CVPR.2016.90
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1512.03385
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1512.03385
+      \endverb
+    \endentry
+    \entry{Reference24}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9d16b7284df92c9adaee86c37ab992df}{%
+           family={Simonyan},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c72fc39e94030f67717052309266a44d}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{fullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{fullhashraw}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{bibnamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authorbibnamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authornamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authorfullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authorfullhashraw}{25d2f3c4577a6632d37f0126cc781232}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1409.1556}
+      \field{title}{Very Deep Convolutional Networks for Large-Scale Image Recognition}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1409.1556
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1409.1556
+      \endverb
+    \endentry
+    \entry{Reference25}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=1e7d6abb8225099acc71f672b9ec336e}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Mingxing},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c636f146591d51579a8119b777394878}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Quoc\bibnamedelima V.},
+           giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{d029e8131f7a0bef056d7edc726f1529}
+      \strng{fullhash}{d029e8131f7a0bef056d7edc726f1529}
+      \strng{fullhashraw}{d029e8131f7a0bef056d7edc726f1529}
+      \strng{bibnamehash}{d029e8131f7a0bef056d7edc726f1529}
+      \strng{authorbibnamehash}{d029e8131f7a0bef056d7edc726f1529}
+      \strng{authornamehash}{d029e8131f7a0bef056d7edc726f1529}
+      \strng{authorfullhash}{d029e8131f7a0bef056d7edc726f1529}
+      \strng{authorfullhashraw}{d029e8131f7a0bef056d7edc726f1529}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 36th International Conference on Machine Learning (ICML)}
+      \field{title}{EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks}
+      \field{year}{2019}
+      \field{pages}{6105\bibrangedash 6114}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1905.11946
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1905.11946
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,83 @@
+# ========================
+# PROJECT CONFIG
+# ========================
+
+project:
+  name: vietnamese_ocr
+  device: cpu   # đổi thành cuda nếu có GPU
+
+
+# ========================
+# YOLO DETECTION
+# ========================
+
+yolo:
+  model_path: "D:/LAB/Handwriting Recognition/models/yolo/best (1).pt"
+  img_size: 1024
+  conf_threshold: 0.5
+
+
+# ========================
+# OCR MODELS
+# ========================
+
+ocr_models:
+  # ==================== BEAM SEARCH MODELS ====================
+  crnn_vgg:
+    backbone: crnn_vgg16
+    model_path: "D:/LAB/Handwriting Recognition/models/crnn/model_crnn_text (1).pth"
+    decoder: beam
+    beam_size: 10
+    num_classes: 234                     # Quan trọng cho model crnn
+
+  crnn:
+    backbone: crnn_base
+    model_path: "D:/LAB/Handwriting Recognition/models/crnn/model_crnn_vgg16.pth"
+    decoder: beam
+    beam_size: 10
+
+  crnn_efficientNet:
+    backbone: efficientNet
+    model_path: "D:/LAB/Handwriting Recognition/models/crnn/model_crnn_text (2).pth"
+    decoder: beam
+    beam_size: 10
+
+  # ==================== CTC GREEDY MODELS ====================
+  crnn_resnet:
+    backbone: crnn_resnet50
+    model_path: "D:/LAB/Handwriting Recognition/models/crnn/model_crnn_text (3).pth"
+    decoder: ctc
+    # Không cần beam_size vì dùng CTC Greedy
+# ========================
+# DATASET
+# ========================
+
+dataset:
+  image_dir: data/images
+  label_dir: data/labels
+
+
+# ========================
+# SORT BOXES
+# ========================
+
+sort:
+  y_threshold: 35
+
+
+# ========================
+# OUTPUT
+# ========================
+
+output:
+  save_image: false
+  save_text: true
+  output_dir: results/
+
+
+# ========================
+# DEMO
+# ========================
+
+demo:
+  image_path: data/images/h6.jpg

@@ -1,0 +1,46 @@
+% Chương 3
+\chapter{Thực nghiệm và thảo luận} % Tên của chương
+
+\label{Chapter4} % Để trích dẫn chương này ở chỗ nào đó trong bài, hãy sử dụng lệnh \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Định nghĩa một số lệnh cần thiết để điều chỉnh định dạng cho một số nội dung nhất định trong bài
+\renewcommand{\keyword}[1]{\textbf{#1}}
+\renewcommand{\tabhead}[1]{\textbf{#1}}
+\renewcommand{\code}[1]{\texttt{#1}}
+\renewcommand{\file}[1]{\texttt{\bfseries#1}}
+\renewcommand{\option}[1]{\texttt{\itshape#1}}
+
+\section{Kết quả thực nghiệm}
+Trong phần này, nghiên cứu tiến hành trình bày các thiết lập thực nghiệm và đánh giá hiệu quả của phương pháp đề xuất đối với bài toán nhận diện chữ viết tay tiếng Việt. Kết quả thực nghiệm được phân tích thông qua các chỉ số đánh giá và đối chiếu với một số kiến trúc mô hình khác nhằm làm rõ tính khả thi, độ chính xác và khả năng cải thiện hiệu năng của phương pháp nghiên cứu.
+
+\subsection{Đánh giá mô hình}
+Sử dụng các chỉ số đánh giá gồm Character Accuracy (Char Acc), Character Error Rate (CER), Word Accuracy (Word Acc) và Sequence Accuracy (Seq Acc) nhằm đánh giá toàn diện hiệu năng của mô hình trong bài toán nhận diện chữ viết tay tiếng Việt. Kết quả thực nghiệm và so sánh giữa các kiến trúc backbone khác nhau khi kết hợp với mô hình CRNN được trình bày trong Bảng \ref{tab:model_comparison}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Model} & \textbf{Char Acc (\%)} & \textbf{CER (\%)} & \textbf{Word Acc (\%)} & \textbf{Seq Acc (\%)} \\
+        \midrule
+        CRNN                    & 82.8 & 17.2 & 68.5 & 55.2 \\
+        CRNN + VGG16            & 85.4 & 14.6 & 74.2 & 58.7 \\
+        CRNN + VGG19            & 83.6 & 16.4 & 72.1 & 56.8 \\
+        CRNN + ResNet34         & 82.9 & 17.1 & 68.9 & 55.3 \\
+        \textbf{CRNN + ResNet50} & \textbf{88.8} & \textbf{11.2} & \textbf{77.3} & \textbf{61.5} \\
+        CRNN + EfficientNetB0   & 84.7 & 15.3 & 72.8 & 58.1 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Kết quả đánh giá hiệu năng của các mô hình trên tập dữ liệu chữ viết tay tiếng Việt.}
+    \label{tab:model_comparison}
+\end{table}
+
+\subsection{Phân tích và đánh giá kết quả}
+Kết quả thực nghiệm được trình bày trong Bảng \ref{tab:model_comparison}, có thể khẳng định sự kết hợp giữa kiến trúc CRNN và mạng trích xuất đặc trưng (backbone) ResNet50 mang lại hiệu năng vượt trội nhất trong bài toán nhận diện chữ viết tay tiếng Việt \cite{Reference23}. Cụ thể, cấu hình CRNN + ResNet50 dẫn đầu ở toàn bộ các tiêu chí, đạt độ chính xác ký tự (Char Acc) cao nhất ở mức 88.8\%, qua đó ép tỷ lệ lỗi ký tự (CER) xuống mức thấp nhất là 11.2\%. Không chỉ xuất sắc ở cấp độ ký tự đơn lẻ, sự ưu việt của mô hình còn được thể hiện qua các độ đo khắt khe hơn: độ chính xác mức từ (Word Acc) đạt 77.3\% và độ chính xác toàn chuỗi (Seq Acc) đạt 61.5\%. Sự nâng cấp toàn diện này so với mạng CRNN nguyên bản minh chứng cho việc ResNet50 đã trích xuất thành công các đặc trưng không gian phức tạp của chữ viết tay tiếng Việt – một ngôn ngữ vốn có độ biến thiên rất cao về phong cách viết, nét nối và hệ thống dấu phụ (dấu thanh, dấu mũ).
+
+Phân tích ở nhóm cấu hình tầm trung, các mô hình sử dụng backbone VGG16 và EfficientNetB0 ghi nhận những cải thiện tích cực so với mạng CRNN truyền thống \cite{Reference24,Reference25}. Điển hình, CRNN + VGG16 đạt Char Acc 85.4\% (tương đương CER 14.6\%), cho thấy năng lực biểu diễn đặc trưng hình thái khá ổn định. Dẫu vậy, khi đặt lên bàn cân với ResNet50, giới hạn của các mạng này nằm ở việc khó duy trì trọn vẹn thông tin không gian xuyên suốt các tầng tích chập sâu, dẫn đến hiệu suất giảm sút khi xử lý các chuỗi ký tự dính liền hoặc nét viết biến dạng.
+
+Mặt khác, kết quả từ VGG19 và ResNet34 mang đến một góc nhìn thực nghiệm quan trọng: việc thay đổi độ sâu mạng không phải lúc nào cũng tỷ lệ thuận với sự gia tăng độ chính xác \cite{Reference23,Reference24}. Sự sụt giảm hiệu năng của VGG19 (CER 16.4\%) so với VGG16 phản ánh khả năng mạng bị nhiễu thông tin hoặc rơi vào trạng thái quá khớp (overfitting) khi kiến trúc quá sâu nhưng thiếu cơ chế kết nối tắt phù hợp. Tương tự, khối cấu trúc cơ bản (Basic Block) của ResNet34 dường như chưa đủ năng lực để bóc tách các ký tự có hình dạng tương đồng hoặc thiếu nét, khiến kết quả nhận diện chỉ nhỉnh hơn biên độ hẹp so với mô hình gốc \cite{Reference23}.
+
+Tóm lại, thực nghiệm đã khẳng định vai trò mang tính quyết định của việc lựa chọn mạng trích xuất đặc trưng trong hệ thống nhận diện chuỗi. Cơ chế học cặn dư (residual learning) với khối Bottleneck của ResNet50 giúp mô hình mở rộng độ sâu hiệu quả mà không bị suy biến đạo hàm, dung hòa xuất sắc giữa khả năng học đặc trưng sâu và độ ổn định tổng thể. Do đó, CRNN kết hợp ResNet50 là cấu hình tối ưu và phù hợp nhất trong nghiên cứu này, tạo tiền đề vững chắc về độ tin cậy để triển khai các ứng dụng số hóa tài liệu chữ viết tay tiếng Việt trong thực tiễn \cite{Reference23}.

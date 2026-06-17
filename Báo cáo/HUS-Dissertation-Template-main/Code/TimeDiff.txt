@@ -1,0 +1,16 @@
+~/D/S/L/T/Code$ g++ -g -Wall TimeDiff.cpp -o TimeDiff
+~/D/S/L/T/Code$ ./TimeDiff
+Enter start time.
+Enter hours, minutes and seconds respectively: 
+11
+33   
+52
+Enter stop time.
+Enter hours, minutes and seconds respectively: 
+8
+12
+15
+
+TIME DIFFERENCE: 11:33:52 - 8:12:15 = 3:21:37
+
+~/D/S/L/T/Code$

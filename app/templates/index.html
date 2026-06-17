@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hệ thống OCR Thông minh</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nhận diện và trích xuất văn bản chữ viết tay</h1>
+        <p class="subtitle">(YOLO26 + CRNN)</p>
+
+        <div class="six-grid">
+            
+            <!-- 1. Original Image -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="icon"></span> Original Image
+                    <button onclick="document.getElementById('fileInput').click()" class="upload-btn">Chọn ảnh</button>
+                    <input type="file" id="fileInput" accept="image/*" hidden>
+                </div>
+                <div class="card-body" id="originalCard">
+                    <img id="originalImage" alt="Original Image">
+                </div>
+            </div>
+
+            <!-- 2. Detection -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="icon"></span> Detection Result
+                    <button onclick="runDetect()" class="detect-btn">Detect Only</button>
+                </div>
+                <div class="card-body" id="detectionCard">
+                    <img id="detectionImage" alt="Detection Result">
+                </div>
+            </div>
+
+            <!-- 3~6. OCR Results -->
+            <div class="card arch-card">
+                <div class="card-header">
+                    <span class="number">1</span>
+                    <div class="title">CRNN + VGG16</div>
+                    <button onclick="runOCR('crnn_vgg', 'result1')" class="run-btn">Run OCR</button>
+                </div>
+                <div class="card-body result-body" id="result1"></div>
+            </div>
+
+            <div class="card arch-card">
+                <div class="card-header">
+                    <span class="number">2</span>
+                    <div class="title">CRNN </div>
+                    <button onclick="runOCR('crnn', 'result2')" class="run-btn">Run OCR</button>
+                </div>
+                <div class="card-body result-body" id="result2"></div>
+            </div>
+
+            <div class="card arch-card">
+                <div class="card-header">
+                    <span class="number">3</span>
+                    <div class="title">CRNN + EfficientNet</div>
+                    <button onclick="runOCR('crnn_efficientNet', 'result3')" class="run-btn">Run OCR</button>
+                </div>
+                <div class="card-body result-body" id="result3"></div>
+            </div>
+
+            <div class="card arch-card">
+                <div class="card-header">
+                    <span class="number">4</span>
+                    <div class="title">CRNN + Resnet50</div>
+                    <button onclick="runOCR('crnn_resnet', 'result4')" class="run-btn">Run OCR</button>
+                </div>
+                <div class="card-body result-body" id="result4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

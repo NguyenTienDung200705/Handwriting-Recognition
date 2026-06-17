@@ -1,0 +1,113 @@
+\appendix
+\chapter{Các chỉ số đánh giá}
+\label{AppendixA}
+
+Việc đánh giá hiệu năng của phương pháp nghiên cứu được thực hiện qua hai giai đoạn độc lập: phát hiện vùng chứa văn bản (Detection) và nhận dạng nội dung ký tự (Recognition).
+
+\section*{I. Đánh giá mô hình Phát hiện đối tượng}
+
+Trong bài toán này, hiệu suất mô hình được xác định dựa trên sự tương quan về vị trí không gian giữa hộp dự đoán và hộp thực tế.
+
+\subsection*{1. Chỉ số IoU}
+Chỉ số này đo lường mức độ trùng khớp về mặt không gian giữa hai vùng ảnh.
+\begin{equation}
+IoU = \frac{Area(B_{pred} \cap B_{gt})}{Area(B_{pred} \cup B_{gt})}
+\end{equation}
+\textbf{Trong đó :}
+\begin{itemize}
+    \item $B_{pred}$: Hình hộp giới hạn (\textit{Bounding Box}) do mô hình dự đoán.
+    \item $B_{gt}$: Hình hộp giới hạn thực tế (\textit{Ground Truth}) do người gán nhãn.
+    \item $Area(B_{pred} \cap B_{gt})$: Diện tích vùng giao nhau giữa hộp dự đoán và hộp thực tế.
+    \item $Area(B_{pred} \cup B_{gt})$: Tổng diện tích bao phủ của cả hai hộp giới hạn.
+\end{itemize}
+
+\subsection*{2. Precision}
+Đo lường tỉ lệ dự đoán đúng trong số tất cả các dự đoán mà mô hình đưa ra.
+\begin{equation}
+Precision = \frac{TP}{TP + FP}
+\end{equation}
+\textbf{Trong đó :}
+\begin{itemize}
+    \item $TP$ (\textit{True Positive}): Số lượng đối tượng dự đoán đúng.
+    \item $FP$ (\textit{False Positive}): Số lượng đối tượng dự đoán sai (nhận nhầm bối cảnh là đối tượng).
+\end{itemize}
+
+\subsection*{3. Recall}
+Đo lường tỉ lệ đối tượng được tìm thấy trên tổng số đối tượng thực tế tồn tại.
+\begin{equation}
+Recall = \frac{TP}{TP + FN}
+\end{equation}
+\textbf{Trong đó :}
+\begin{itemize}
+    \item $TP$ (\textit{True Positive}): Số lượng đối tượng dự đoán đúng.
+    \item $FN$ (\textit{False Negative}): Số lượng đối tượng thực tế bị mô hình bỏ sót.
+\end{itemize}
+
+\subsection*{4. Average Precision}
+Đại diện cho hiệu năng của mô hình trên một lớp đối tượng cụ thể thông qua đường cong Precision-Recall.
+\begin{equation}
+AP = \int_0^1 P(R)\, dR
+\end{equation}
+\textbf{Trong đó :}
+\begin{itemize}
+    \item $R$: Chỉ số Recall.
+    \item $P(R)$: Giá trị Precision tương ứng với từng mức độ Recall trên đồ thị.
+\end{itemize}
+
+\subsection*{5. Mean Average Precision}
+Giá trị trung bình của AP trên tất cả các lớp đối tượng cần nhận diện.
+\begin{equation}
+mAP = \frac{1}{C} \sum_{c=1}^{C} AP_c
+\end{equation}
+\textbf{Trong đó :}
+\begin{itemize}
+    \item $C$: Tổng số lớp (classes) đối tượng trong tập dữ liệu.
+    \item $AP_c$: Giá trị Average Precision của lớp thứ $c$.
+\end{itemize}
+
+\section*{II. Đánh giá mô hình Nhận dạng văn bản}
+
+Giai đoạn này sử dụng mô hình CRNN để chuyển đổi hình ảnh dòng chữ thành chuỗi văn bản tương ứng.
+
+\subsection*{1. Độ chính xác ký tự}
+\begin{equation}
+CharAcc = \frac{N_{char\_correct}}{N_{char\_total}} \times 100\%
+\end{equation}
+\textbf{Trong đó :}
+\begin{itemize}
+    \item $N_{char\_correct}$: Số lượng ký tự được mô hình nhận dạng đúng.
+    \item $N_{char\_total}$: Tổng số lượng ký tự có trong nhãn thực tế.
+\end{itemize}
+
+\subsection*{2. Độ chính xác từ}
+\begin{equation}
+WordAcc = \frac{N_{word\_correct}}{N_{word\_total}} \times 100\%
+\end{equation}
+\textbf{Trong đó :}
+\begin{itemize}
+    \item $N_{word\_correct}$: Số lượng từ được nhận dạng đúng hoàn toàn (tất cả ký tự trong từ phải đúng).
+    \item $N_{word\_total}$: Tổng số từ có trong tập dữ liệu kiểm tra.
+\end{itemize}
+
+\subsection*{3. Độ chính xác chuỗi}
+\begin{equation}
+SeqAcc = \frac{N_{seq\_correct}}{N_{seq\_total}} \times 100\%
+\end{equation}
+\textbf{Trong đó :}
+\begin{itemize}
+    \item $N_{seq\_correct}$: Số lượng dòng văn bản mô hình nhận dạng đúng tuyệt đối 100\%.
+    \item $N_{seq\_total}$: Tổng số dòng văn bản có trong tập dữ liệu kiểm tra.
+\end{itemize}
+
+\subsection*{4. Tỷ lệ lỗi ký tự}
+Đánh giá mức độ sai lệch dựa trên khoảng cách Levenshtein giữa chuỗi dự đoán và chuỗi thực tế.
+\begin{equation}
+CER = \frac{S + D + I}{N} \times 100\%
+\end{equation}
+\textbf{Trong đó :}
+\begin{itemize}
+    \item $S$ (\textit{Substitution}): Số ký tự bị thay thế sai (nhận diện nhầm).
+    \item $D$ (\textit{Deletion}): Số ký tự bị thiếu hụt (bỏ sót).
+    \item $I$ (\textit{Insertion}): Số ký tự bị dư thừa so với nhãn gốc.
+    \item $N$: Tổng số ký tự có trong nhãn gốc (\textit{Ground Truth}).
+\end{itemize}

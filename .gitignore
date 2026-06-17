@@ -1,0 +1,188 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+backend/venv/
+.backend_venv/
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ==========================================
+# Build / Distribution
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.*
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Frontend / Node.js
+# ==========================================
+node_modules/
+.next/
+out/
+coverage/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# AI / Deep Learning
+# ==========================================
+runs/
+wandb/
+mlruns/
+tensorboard/
+checkpoints/
+weights/
+
+# Model Weights
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.engine
+
+# ==========================================
+# Dataset
+# ==========================================
+datasets/
+data/
+
+# ==========================================
+# Uploads / Outputs
+# ==========================================
+backend/uploads/
+backend/outputs/
+
+outputs/
+results/
+predictions/
+
+# ==========================================
+# Temporary Files
+# ==========================================
+temp/
+tmp/
+*.tmp
+
+# Duplicate files
+* (1).*
+
+# ==========================================
+# Database
+# ==========================================
+*.db
+*.sqlite3
+
+# ==========================================
+# Docker
+# ==========================================
+*.pid
+docker-compose.override.yml
+
+# =========================
+# LaTeX build files
+# =========================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# =========================
+# PDF output
+# =========================
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
+*.swp
+*.gz
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+
+# =========================
+# MacOS / Windows
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build folders
+# =========================
+build/
+dist/
+
+# =========================
+# Latexmk
+# =========================
+latexmkrc
+
+# =========================
+# Generated bibliography
+# =========================
+*-blx.bib
+
+# =========================
+# Texstudio / Texmaker
+# =========================
+*.synctex(busy)

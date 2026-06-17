@@ -1,0 +1,24 @@
+% Chương 3
+\chapter{Tổng kết và hướng phát triển} % Tên của chương
+
+\label{Chapter5} % Để trích dẫn chương này ở chỗ nào đó trong bài, hãy sử dụng lệnh \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Định nghĩa một số lệnh cần thiết để điều chỉnh định dạng cho một số nội dung nhất định trong bài
+\renewcommand{\keyword}[1]{\textbf{#1}}
+\renewcommand{\tabhead}[1]{\textbf{#1}}
+\renewcommand{\code}[1]{\texttt{#1}}
+\renewcommand{\file}[1]{\texttt{\bfseries#1}}
+\renewcommand{\option}[1]{\texttt{\itshape#1}}
+
+\section{Tổng kết}
+
+Nghiên cứu này đã đề xuất và xây dựng thành công phương pháp nhận diện chữ viết tay tiếng Việt dựa trên nền tảng kiến trúc mạng nơ-ron hồi quy tích chập (CRNN) \cite{Reference5}. Bằng việc kết hợp sức mạnh trích xuất đặc trưng không gian của mạng CNN và khả năng mô hình hóa chuỗi ngữ cảnh tuần tự của mạng RNN, hệ thống đã giải quyết triệt để những thách thức cốt lõi của bài toán OCR tiếng Việt, bao gồm sự đa dạng trong phong cách viết, biến thiên về độ nghiêng, độ nét, và đặc biệt là sự phức tạp của hệ thống dấu phụ (dấu thanh, dấu mũ) \cite{Reference5,Reference16}.
+
+Thông qua quá trình thực nghiệm đối sánh toàn diện giữa các mạng trích xuất đặc trưng (backbone) phổ biến như VGG16, VGG19, ResNet34, ResNet50 và EfficientNetB0, nghiên cứu đã khẳng định kiến trúc CRNN kết hợp ResNet50 là giải pháp tối ưu nhất \cite{Reference23,Reference24,Reference25}. Mô hình này không chỉ dẫn đầu về độ chính xác ở cấp độ ký tự (giảm thiểu tối đa tỷ lệ lỗi CER) mà còn cải thiện vượt bậc khả năng nhận diện chuỗi văn bản hoàn chỉnh. Cơ chế học cặn dư (residual) của ResNet50 đã chứng minh sự ưu việt trong việc bóc tách và biểu diễn các đặc trưng hình thái phức tạp, giúp hệ thống duy trì tính ổn định, độ dung lỗi cao với nhiễu và khả năng tổng quát hóa ấn tượng trên nhiều mẫu chữ viết tay khác nhau.
+
+\section{Hạn chế và hướng phát triển}
+Dù đạt được những kết quả khả quan, nghiên cứu vẫn ghi nhận một số hạn chế nhất định. Hiện tại, mô hình vẫn bộc lộ điểm yếu khi xử lý các trường hợp chữ viết tay cực đoan (chữ quá xấu, viết tháu, dính liền nét) hoặc các ký tự bị biến dạng dẫn đến hình thái tương đồng nhau. Ngoài ra, quy mô và sự đa dạng của tập dữ liệu huấn luyện hiện tại dù đáp ứng được yêu cầu cơ bản nhưng vẫn cần được đầu tư mở rộng để tối ưu hóa khả năng nhận diện của hệ thống trong môi trường thực tế.
+
+Dựa trên những hạn chế còn tồn tại, định hướng phát triển tiếp theo của đề tài sẽ tập trung vào ba khía cạnh chính. Trước tiên, để tăng tính ổn định và khả năng ứng dụng thực tế, nghiên cứu dự kiến sẽ tiếp tục thu thập và làm phong phú thêm tập dữ liệu huấn luyện, đặc biệt bổ sung các mẫu chữ viết tay có độ khó cao, đa dạng nét chữ hoặc hình ảnh chụp trong điều kiện thực tế (giấy nhăn, ánh sáng kém, mực nhòe). Thứ hai, việc tìm hiểu và tích hợp các mô hình ngôn ngữ tiếng Việt (Language Models) hoặc từ điển n-gram vào khâu hậu xử lý sẽ được ưu tiên nhằm giúp phương pháp tự động kiểm tra và sửa các lỗi chính tả dựa trên ngữ cảnh câu. Cuối cùng, em hướng tới việc thử nghiệm các kiến trúc mạng hiện đại hơn như mạng Transformer hoặc bổ sung cơ chế Attention thay cho RNN truyền thống, qua đó kỳ vọng giải quyết tốt hơn tình trạng nhận diện nhầm các ký tự có hình dáng giống nhau và xử lý hiệu quả hơn các chuỗi văn bản dài.

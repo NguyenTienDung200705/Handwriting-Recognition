@@ -1,0 +1,43 @@
+% Chương 1
+
+\chapter{GIỚI THIỆU} % Tên của chương
+
+\label{Chapter1} % Để trích dẫn chương này ở chỗ nào đó trong bài, hãy sử dụng lệnh \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Định nghĩa một số lệnh cần thiết để điều chỉnh định dạng cho một số nội dung nhất định trong bài
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%----------------------------------------------------------------------------------------
+
+\section{Đặt vấn đề}
+
+Mặc dù công nghệ xử lý văn bản đã có nhiều bước tiến đáng kể, việc nhận diện và số hóa văn bản tiếng Việt, đặc biệt là chữ viết tay, vẫn là một bài toán chưa được giải quyết triệt để \cite{Reference3}. Những hạn chế trong việc xử lý tự động các loại dữ liệu này đang ảnh hưởng trực tiếp đến hiệu quả lưu trữ và khai thác thông tin trong thực tế \cite{Reference3}.
+
+Bài toán nhận diện văn bản, mặc dù đã đạt được nhiều tiến bộ đáng kể nhờ sự phát triển của trí tuệ nhân tạo và học sâu, vẫn còn tồn tại nhiều thách thức khi áp dụng cho tiếng Việt. Đặc thù ngôn ngữ với hệ thống dấu phong phú, cùng với sự đa dạng trong phong cách chữ viết tay, làm gia tăng độ phức tạp của bài toán và ảnh hưởng trực tiếp đến độ chính xác của các mô hình nhận diện. Bên cạnh đó, hiệu quả của các mô hình học sâu phụ thuộc lớn vào kiến trúc được sử dụng, trong khi việc đánh giá và so sánh một cách hệ thống giữa các kiến trúc này đối với dữ liệu tiếng Việt vẫn còn hạn chế \cite{Reference4}.
+
+Việc nghiên cứu và đánh giá hiệu quả của các kiến trúc học sâu trong bài toán nhận diện văn bản tiếng Việt là cần thiết. Thông qua việc phân tích, xây dựng và so sánh các mô hình khác nhau, có thể xác định được những phương pháp phù hợp, góp phần nâng cao độ chính xác và tính ổn định của phương pháp­ nhận diện, đồng thời đáp ứng tốt hơn nhu cầu số hóa tài liệu trong thực tế.
+
+%----------------------------------------------------------------------------------------
+
+\section{Mục tiêu nghiên cứu}
+
+Mục tiêu chính của đề tài là nghiên cứu phương pháp nhận dạng chữ viết tay tiếng Việt dựa trên mô hình CRNN (Convolutional Recurrent Neural Network), từ đó phân tích khả năng ứng dụng của mô hình trong bài toán OCR chữ viết tay \cite{Reference5}. Đề tài tập trung khai thác khả năng kết hợp giữa mạng tích chập CNN trong việc trích xuất đặc trưng ảnh và mạng hồi tiếp RNN/BiLSTM trong việc xử lý dữ liệu tuần tự để nhận dạng chuỗi ký tự tiếng Việt một cách hiệu quả \cite{Reference6}.
+
+Bên cạnh đó, đề tài cũng triển khai và đánh giá thêm một số phương pháp nhận dạng khác nhằm so sánh hiệu quả với mô hình CRNN, từ đó đưa ra nhận xét về độ chính xác và khả năng phù hợp của từng phương pháp đối với dữ liệu chữ viết tay tiếng Việt.
+
+Để đạt được mục tiêu trên, đề tài tập trung thực hiện các nội dung sau:
+
+Nghiên cứu mô hình CRNN trong bài toán OCR:
+Tìm hiểu cấu trúc và nguyên lý hoạt động của mô hình CRNN, bao gồm quá trình trích xuất đặc trưng bằng CNN, xử lý chuỗi bằng RNN/BiLSTM và giải mã ký tự bằng hàm mất mát CTC (Connectionist Temporal Classification) \cite{Reference7}.
+
+Nghiên cứu phương pháp xử lý dữ liệu ảnh chữ viết tay:
+Khảo sát các kỹ thuật tiền xử lý ảnh như chuyển ảnh xám, khử nhiễu, nhị phân hóa và chuẩn hóa kích thước nhằm cải thiện chất lượng dữ liệu đầu vào cho mô hình nhận dạng.
+
+So sánh với các phương pháp nhận dạng khác:
+Triển khai thêm một số mô hình hoặc phương pháp OCR khác để tiến hành đánh giá và so sánh với CRNN dựa trên các tiêu chí như độ chính xác nhận dạng, khả năng xử lý ký tự tiếng Việt và tốc độ thực thi. Phân tích kết quả thu được từ quá trình huấn luyện và kiểm thử nhằm đánh giá hiệu quả của các mô hình trong bài toán nhận dạng chữ viết tay tiếng Việt \cite{Reference5,Reference7}.
