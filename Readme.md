@@ -424,8 +424,9 @@ Trường Đại học Khoa học Tự nhiên, ĐHQG Hà Nội
 
 📧 Email liên hệ : nguyentiendung200705@gmail.com
 
-**Giảng viên hướng dẫn:** TS. Nguyễn Tiến Cường
-                             CN. Vi Anh Quân
+**Giảng viên hướng dẫn:**<br>
+TS. Nguyễn Tiến Cường<br>
+CN. Vi Anh Quân
 
 ---
 
